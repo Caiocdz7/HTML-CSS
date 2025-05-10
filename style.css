@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background: url(wp11657978-1920x1080-dark-winter-wallpapers.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    color: #fff;
+    width: 400px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    padding: 30px 40px
+}
+
+.container h1{
+    font-size: 45px;
+    padding-bottom: 8px;
+}
+
+.input-box{
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgb(255, 252, 252);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 35px;
+    margin-bottom: 15px;
+    padding: 25px;
+}
+.input-box ::placeholder{
+    color: #fff;
+}
+
+.Cadastra-se{
+    border-radius: 45px;
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    border: 2px solid gray;
+    color: #fff;
+}
+.Cadastra-se:hover{
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.you-have a{
+    color: #fff;
+    margin-top: 20px;
+}
