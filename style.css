@@ -1,74 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-*{
-    padding: 0;
-    margin: 0%;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: "Ubuntu", sans-serif;
 }
 
-body{
-    text-align: center;
-    justify-content: center;
+body {
     align-items: center;
     display: flex;
+    justify-content: center;
     height: 100vh;
     flex-direction: column;
-    background: url(wp11657978-1920x1080-dark-winter-wallpapers.jpg);
+    background: url(img.jpg);
     background-position: center;
-    background-size: cover;
+    background size: cover;
 }
 
-.container{
+.container {
     color: #fff;
-    width: 400px;
-    border: 2px solid #fff;
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
-    padding: 30px 40px
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 35px;
+    padding: 30px 40px;
+    backdrop-filter: blur(15px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
 .container h1{
-    font-size: 45px;
-    padding-bottom: 8px;
+    font-size: 46px;
+    text-align: center;
 }
 
 .input-box{
     width: 100%;
+    height: 50px;
     margin: 30px 0px;
 }
 
 .input-box input{
     width: 100%;
-    height: 40px;
+    height: 50px;
     background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);;
     outline: none;
-    border: 2px solid rgb(255, 252, 252);
-    color: #fff;
     font-size: 16px;
-    border-radius: 35px;
-    margin-bottom: 15px;
-    padding: 25px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    border-radius: 40px;
 }
-.input-box ::placeholder{
+.input-box input::placeholder{
     color: #fff;
 }
 
-.Cadastra-se{
-    border-radius: 45px;
-    background-color: transparent;
+.remember-forgot{
+    display: flex;
+    margin: 15px 0px 15px;
+    justify-content:space-between
+    
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 4px;
+
+}
+
+.remember-forgot a{
+    color: #fff;
+}
+.remember-forgot a:hover{
+    text-decoration: underline
+}
+.Login{
     width: 100%;
-    height: 60px;
-    border: 2px solid gray;
-    color: #fff;
-}
-.Cadastra-se:hover{
-    color: #fff;
-    border: 2px solid rgb(255, 255, 255);
-    background-color: transparent;
+    height: 50px;
+    border: none;
+    background-color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font font-weight: 600;
 }
 
-.you-have a{
+.Login:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
     color: #fff;
-    margin-top: 20px;
+}
+
+.dont-have{
+    text-align: center;
+    font-size: 14px;
+}
+.dont-have a{
+    color: #ffffff;
 }
